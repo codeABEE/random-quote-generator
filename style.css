@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.top-section{
+    background-image: url("background.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+    color: white;
+    font-weight: bold;
+}
+
+.text-section{
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translate(-20%,-20%);
+    font-size: 20px;
+    font-family: monospace;
+    justify-content: justify;
+    
+
+}
+.text-section h2{
+    padding-bottom: 35px;
+    font-size: 40px;
+    color: red;
+}
+.quote-Author{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 37%;
+    font-family: monospace;
+}
+.newQuotes,.autoUpdate{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.exitAutoUpdate{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+   
+
+}
+.buttons{
+    margin-top: 30px;
+}
+
+@media(max-width:700px){
+    .text-section h2{
+        font-size: 20px;
+    }
+}
+
+.timer{
+    width: 0%;
+    display: block;
+    height: 5px;
+    background: yellow;
+   position: relative;
+   top: 330px;
+    margin: 0 auto;
+    transition: 10s;
+
+
+}
